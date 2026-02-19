@@ -1,0 +1,1 @@
+The purpose of this lab is to build your own resume website from scratch. 

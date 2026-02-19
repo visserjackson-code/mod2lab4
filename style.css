@@ -1,0 +1,62 @@
+:root {
+    --header-font: "Headland One";
+    --body-font: "Sansation";
+    --header-color: rgb(20, 94, 167);
+    --secondary-color: orangered;
+}
+
+body {
+    padding-left: 5vw;
+}
+    
+h2 {
+    font-family: var(--header-font);
+    color: var(--header-color);
+}
+
+a {
+    color: var(--secondary-color);
+}
+a:visited {
+    color: lightsalmon;
+}
+
+
+
+p {
+    font-family: var(--body-font);
+    color: black;
+}
+
+.boldable {
+    font-weight: bold
+}
+
+.timeable {
+    font-style: italic;
+}
+
+#header-title {
+    font-family: var(--header-font);
+    text-align: center;
+    color: var(--header-color);
+    transition: text-decoration 0.3s ease;
+}
+
+#header-title:hover {
+    text-decoration: wavy;
+}
+
+#gpa {
+    font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+    }
+    h2 {
+        text-align: center;
+    }
+}
